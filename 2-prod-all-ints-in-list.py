@@ -40,7 +40,7 @@ def get_new_arr(arr):
 
         else:
             for i in range(n):
-                new_arr[i] = int(EPS + math.pow(10, sum - math.log10(arr[i])))
+                new_arr[i] = int(EPS + pow(10, sum - math.log10(arr[i])))
 
     return new_arr
 
